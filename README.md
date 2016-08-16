@@ -11,11 +11,12 @@ require_once('/path/to/Yunxizhibo-php/Yunxizhibo.php');
 ### 接入方法
 ### 初始化
 ```php
-$accessKey = 'accessKey';  //
+$accessKey = 'accessKey';
 $secretKey = 'secretKey';
  ```
- ```php
+
 ### 填写AccessKey、SecretKey
+ ```php
 $yxObj = new Yunxizhibo($accessKey, $secretKey);
  ```
 
@@ -48,6 +49,7 @@ if(empty($data)) {
 ```
 
 ### 活动详情
+```php
 $activity = $data["activity"];
 ```
 
@@ -82,6 +84,7 @@ $appPlayUrl = $data["appPlayUrl"];
 $embedPlayerUrl = $data["embedPlayerUrl"];
 ```
 ### 围观人数
+```php
 $totalNum = $data["totalNum"];
 ```
 
