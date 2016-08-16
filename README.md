@@ -3,6 +3,10 @@
 @link
 @version 1.0
 
+## 版本要求
+PHP 版本 5.3 及以上
+
+## 安装
 ### 手动引入
 ```php
 require_once('/path/to/Yunxizhibo-php/Yunxizhibo.php');
