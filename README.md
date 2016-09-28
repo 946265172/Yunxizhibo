@@ -91,4 +91,18 @@ $embedPlayerUrl = $data["embedPlayerUrl"];
 ```php
 $totalNum = $data["totalNum"];
 ```
+### 评论
+```php
+$comments = $data["comments"];
+```
+
+### 内容模块
+```php
+$templateData = $data["templateData"];
+```
+
+### 广告位
+```php
+$bannerData = $data["bannerData"];
+```
 
